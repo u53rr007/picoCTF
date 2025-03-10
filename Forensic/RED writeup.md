@@ -20,10 +20,6 @@
 ### FLAG
 > picoCTF{r3d_1s_th3_ult1m4t3_cur3_f0r_54dn355_}
 ### SOLVED
-To solve this you have 2 methods:
-
-__FIRST__:
-
 After downloading any images the first thing to check is to open the image to see if it can be opened. The image is just a red square nothing special. After that, try to extract the metadata of an image using Exiftool:
 ```
 exiftool red.png
