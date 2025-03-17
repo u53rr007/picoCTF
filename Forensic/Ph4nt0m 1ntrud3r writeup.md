@@ -21,7 +21,7 @@ Find the PCAP file here Network Traffic PCAP file and try to get the flag.
 ### FLAG
 > picoCTF{1t_w4snt_th4t_34sy_tbh_4r_af160980}
 ### SOLVED
-Open the pcap file (myNetworkTraffic.pcap) and you will see there is just a bunch of TCP retransmissions nothing else. Look closely at the frame length, and you will notice that some packets have a length that is different than 48. Filter that out:
+Open the pcap file (myNetworkTraffic.pcap) and you will see there is just a bunch of TCP retransmissions nothing else. Look closely at the frame length, and you will notice that some packets have lengths that are different from 48. Filter that out:
 ```
 frame.len != 48
 ```
