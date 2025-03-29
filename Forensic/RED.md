@@ -27,7 +27,7 @@ exiftool red.png
 You will see the poem tag in the metadata. Apart from that everything else seems normal for an image.
 ![image](https://github.com/user-attachments/assets/4215c25a-102b-4a8d-ad5d-68b97f4f8ef1)
 
-After that, I did a few normal checks for hex, compress files (Binwalk), pngcheck, etc. And stopped at the zsteg check. When I checked for LSB using zsteg there were some sussy __base64__ strings.
+After that, I did a few normal checks for hex, compress files (Binwalk), pngcheck, etc. And stopped at the zsteg check. When I checked for LSB using zsteg there are some sussy __base64__ strings.
 ```
 zsteg --lsb red.png
 ```
