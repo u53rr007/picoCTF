@@ -40,3 +40,5 @@ Open the file using Event Viewer => Filter current log => Type in the event ID (
 ![image](https://github.com/user-attachments/assets/21a51f84-62de-4bf5-8d19-4d0a8233ba80)
 
 __P/S__: 1,2 You can find it using Ctrl+F and find the proccess name of: __Totally_Legit_Software__.
+
+### END!!
