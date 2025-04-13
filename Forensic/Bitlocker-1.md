@@ -32,7 +32,7 @@ hashcat -m 22100 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
 
 ![image](https://github.com/user-attachments/assets/f10b2fcb-a3d6-4127-8be5-400c46515ded)
 
-WWait for about 1 min and the password cracked. The next part is to mount the disk image on a Linux machine or mount it on Windows and enter the password to get the flag.
+Wait for about 1 min and the password cracked. The next part is to mount the disk image on a Linux machine or mount it on Windows and enter the password to get the flag.
 
 __Windows way:__
 
@@ -47,7 +47,7 @@ First, you need to download __OSFMount__ to mount .dd as a virtual drive. Then f
 
 __Linux way:__
 
-First you need to download __dislocker__ to decrypt BitLocker.
+First you need to install __dislocker__ to decrypt BitLocker.
 ```
 sudo apt install dislocker
 ```
