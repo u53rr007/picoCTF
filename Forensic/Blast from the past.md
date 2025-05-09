@@ -33,7 +33,7 @@ Some need to be modified. So go and change all of that and submit it through net
 - SubSecDateTimeOriginal
 - SubSecModifyDate
 
-The way I do it is to figure out which tag needs to modify the timestamp in all the visible tags that you can see using exiftool, and submit it, and find out the next tag that needs to modify. The full command is:
+The way I do it is to figure out which tag needs to be modified in all the visible tags that you can see through exiftool modify, and submit it, then the next tag that needs to be modified will show up. The full command is:
 ```
 exiftool -overwrite_original \
   "-CreateDate=1970:01:01 00:00:00.001" \
